@@ -481,7 +481,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif;
+  font-family: "brandon-grotesque", "futura-pt", "proxima-nova", sans-serif;
   font-weight: 800;
   line-height: 1.6;
   color: #FFFFFF;
@@ -505,7 +505,7 @@ p {
   max-width: 37.5em;
   margin: 0.625em 0;
   padding: 0;
-  font-family: "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif;
+  font-family: "brandon-grotesque", "futura-pt", "proxima-nova", sans-serif;
   font-size: 1.5em;
   font-weight: 500;
   line-height: 1.8; }
