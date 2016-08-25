@@ -406,6 +406,9 @@ html, body {
     margin: 0 -0.66em 1em auto;
     letter-spacing: 0.66em;
     opacity: 0.66; }
+  .intro .email-status {
+    display: block;
+    min-height: 1.5em; }
   .intro .logo {
     position: relative;
     top: 50%;
@@ -459,7 +462,7 @@ footer {
       width: 100%; } }
 
 html {
-  font: 500 normal 100%/1.4 "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif; }
+  font: 500 normal 100%/1.4 "brandon-grotesque", "futura-pt", "proxima-nova", sans-serif; }
   @media screen and (max-width: 100em) {
     html {
       font-size: 90%; } }
@@ -535,13 +538,23 @@ a {
     opacity: 1; }
   to {
     opacity: 0; } }
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 175ms;
+  animation-fill-mode: both; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 button {
   vertical-align: top;
   width: 17.5em;
   height: 3.375em;
   margin: 0 auto 0 0.25em;
   padding: 0;
-  font-family: "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif;
+  font-family: "brandon-grotesque", "futura-pt", "proxima-nova", sans-serif;
   font-size: 0.875em;
   font-weight: 800;
   letter-spacing: 0.5em;
@@ -551,13 +564,14 @@ button {
   color: #262626;
   border: 3px solid #FFFFFF;
   outline: none;
+  cursor: pointer;
   -webkit-transition: all, 175ms;
   -moz-transition: all, 175ms;
   transition: all, 175ms; }
   button:hover {
-    background-color: #262626;
+    background-color: transparent;
     color: #FFFFFF;
-    border: 3px solid #262626; }
+    border: 3px solid #FFFFFF; }
 
 form {
   margin: 5em auto 0 auto;
@@ -574,7 +588,7 @@ input {
   height: 3.375em;
   margin: 0 auto;
   padding: 0 1.75em;
-  font-family: "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif;
+  font-family: "brandon-grotesque", "futura-pt", "proxima-nova", sans-serif;
   font-size: 0.875em;
   font-weight: 800;
   letter-spacing: 0.25em;

@@ -40,6 +40,11 @@ html, body {
 		opacity: 0.66;
 	}
 
+	.email-status {
+		display: block;
+		min-height: em(24px);
+	}
+
 	.logo {
 		@include vertical-center;
 
