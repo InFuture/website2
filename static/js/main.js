@@ -13,7 +13,8 @@ var subscribe_form = function(id) {
 				$('#js-status').text('Awesome! You\'ll be one of the first to hear about awesome updates :)');
 				
 				$('#email').attr('disabled', 'disabled');
-				$('#email').attr('placeholder', 'Thanks! Stay tuned :)');
+				// $('#email').attr('placeholder', 'Thanks! Stay tuned :)');
+				$('#email').css('color', '#CCCCCC');
 			}
 
 			else {
